@@ -7,4 +7,6 @@ Test Bench Framework是用LabVIEW2019开发的测试序列管理框架，
 
 #### 说明文档
 
-[Home - Wiki - Gitee.com](https://gitee.com/xiongxinwei/test-bench-framework/wikis/Home)
+[Test Bench Framework - Wiki - Gitee.com](https://gitee.com/xiongxinwei/test-bench-framework/wikis/Test%20Bench%20Framework)
+
+
