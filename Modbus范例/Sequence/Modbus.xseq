@@ -1,0 +1,3786 @@
+<Cluster>
+<Name>Sequence File</Name>
+<NumElts>6</NumElts>
+<Map>
+<Name>Sequence</Name>
+<NumElts>2</NumElts>
+<KeyValPair>
+<String>
+<Name>Sequence Name</Name>
+<Val>Main_Sequence</Val>
+</String>
+<Cluster>
+<Name>Step</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>Steps</Name>
+<Dimsize>5</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>PropertiesSetting</Name>
+<NumElts>5</NumElts>
+<Cluster>
+<Name>Run Options</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Run Mode</Name>
+<Val>Normal</Val>
+</String>
+<Boolean>
+<Name>Ignore Step Failure </Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Error</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Breakpoint</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Looping</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Loop Type</Name>
+<Choice>None</Choice>
+<Choice>Pass/Fail count</Choice>
+<Choice>Fixed number of loops</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Record</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Fixed number of loops</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Fixed.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Fixed.Condition</Name>
+<Choice>&lt;</Choice>
+<Choice>&lt;=</Choice>
+<Choice>&gt;</Choice>
+<Choice>&gt;=</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Fixed.PercentOfResult</Name>
+<Val>100</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Pass/Fail count</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Count.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Count.Condition</Name>
+<Choice>pass</Choice>
+<Choice>fail</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Count.StateCount</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Post Action</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Post Actions_Pass</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Post Actions_Fail</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Pass Goto Step</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Fail Goto Step</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>General</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>StepName</Name>
+<Val>LaunchServers</Val>
+</String>
+<String>
+<Name>StepType</Name>
+<Val>Sequence Call</Val>
+</String>
+<String>
+<Name>StepDescripition</Name>
+<Val>启动后台服务</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Synchronization</Name>
+<NumElts>1</NumElts>
+<EW>
+<Name>Synchronization</Name>
+<Choice>No synchronization</Choice>
+<Choice>Parallel</Choice>
+<Choice>Serial</Choice>
+<Choice>Use sequence file setting</Choice>
+<Choice>One thread only</Choice>
+<Choice>Use model setting</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Step Setting</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Step Type</Name>
+<Choice>Pass/Fail Test</Choice>
+<Choice>Numeric Limit Test</Choice>
+<Choice>String Value Test</Choice>
+<Choice>Multiple Numeric Limit Test</Choice>
+<Choice>Action</Choice>
+<Choice>Sequence Call</Choice>
+<Choice>Statement</Choice>
+<Choice>Time Delay</Choice>
+<Choice>Goto</Choice>
+<Choice>Message Popup</Choice>
+<Choice>Call Executable</Choice>
+<Choice>Label</Choice>
+<Choice>Queue</Choice>
+<Choice>Notification</Choice>
+<Choice>Flow_If</Choice>
+<Choice>Flow_For</Choice>
+<Choice>Flow_While</Choice>
+<Choice>Flow_Do While</Choice>
+<Choice>Mutex</Choice>
+<Choice>Batchsync</Choice>
+<Choice>Flow_Else</Choice>
+<Choice>Flow_ElseIf</Choice>
+<Choice>Flow_Break</Choice>
+<Choice>Flow_Continue</Choice>
+<Choice>Flow_Select</Choice>
+<Choice>Flow_Case</Choice>
+<Choice>Rendezvous</Choice>
+<Choice>AutoSchedule</Choice>
+<Choice>UseAutoSchedule</Choice>
+<Choice>AdditionalResult</Choice>
+<Choice>Semaphore</Choice>
+<Choice>FtpFiles</Choice>
+<Val>5</Val>
+</EW>
+<I32>
+<Name>Step ID</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Setting</Name>
+<Val>{"Sequence":{"File Pathname":"","Sequence Name":"Servers","Use Current File":true},"Execution Options":"None","Parameters":[],"Show Process":false}</Val>
+</String>
+<String>
+<Name>Step Address</Name>
+<Val>B82CEB1775A2</Val>
+</String>
+<Map>
+<Name>Step Variable</Name>
+<NumElts>7</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>06_Step</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>15</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Result</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Error</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Boolean</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>8</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Code</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Integer</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>11</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>03_Source</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+</Cluster>
+<Array>
+<Name>Parent Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>Child Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>PropertiesSetting</Name>
+<NumElts>5</NumElts>
+<Cluster>
+<Name>Run Options</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Run Mode</Name>
+<Val>Normal</Val>
+</String>
+<Boolean>
+<Name>Ignore Step Failure </Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Error</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Breakpoint</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Looping</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Loop Type</Name>
+<Choice>None</Choice>
+<Choice>Pass/Fail count</Choice>
+<Choice>Fixed number of loops</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Record</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Fixed number of loops</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Fixed.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Fixed.Condition</Name>
+<Choice>&lt;</Choice>
+<Choice>&lt;=</Choice>
+<Choice>&gt;</Choice>
+<Choice>&gt;=</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Fixed.PercentOfResult</Name>
+<Val>100</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Pass/Fail count</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Count.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Count.Condition</Name>
+<Choice>pass</Choice>
+<Choice>fail</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Count.StateCount</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Post Action</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Post Actions_Pass</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Post Actions_Fail</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Pass Goto Step</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Fail Goto Step</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>General</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>StepName</Name>
+<Val>Connect</Val>
+</String>
+<String>
+<Name>StepType</Name>
+<Val>Action</Val>
+</String>
+<String>
+<Name>StepDescripition</Name>
+<Val>创建连接</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Synchronization</Name>
+<NumElts>1</NumElts>
+<EW>
+<Name>Synchronization</Name>
+<Choice>No synchronization</Choice>
+<Choice>Parallel</Choice>
+<Choice>Serial</Choice>
+<Choice>Use sequence file setting</Choice>
+<Choice>One thread only</Choice>
+<Choice>Use model setting</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Step Setting</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Step Type</Name>
+<Choice>Pass/Fail Test</Choice>
+<Choice>Numeric Limit Test</Choice>
+<Choice>String Value Test</Choice>
+<Choice>Multiple Numeric Limit Test</Choice>
+<Choice>Action</Choice>
+<Choice>Sequence Call</Choice>
+<Choice>Statement</Choice>
+<Choice>Time Delay</Choice>
+<Choice>Goto</Choice>
+<Choice>Message Popup</Choice>
+<Choice>Call Executable</Choice>
+<Choice>Label</Choice>
+<Choice>Queue</Choice>
+<Choice>Notification</Choice>
+<Choice>Flow_If</Choice>
+<Choice>Flow_For</Choice>
+<Choice>Flow_While</Choice>
+<Choice>Flow_Do While</Choice>
+<Choice>Mutex</Choice>
+<Choice>Batchsync</Choice>
+<Choice>Flow_Else</Choice>
+<Choice>Flow_ElseIf</Choice>
+<Choice>Flow_Break</Choice>
+<Choice>Flow_Continue</Choice>
+<Choice>Flow_Select</Choice>
+<Choice>Flow_Case</Choice>
+<Choice>Rendezvous</Choice>
+<Choice>AutoSchedule</Choice>
+<Choice>UseAutoSchedule</Choice>
+<Choice>AdditionalResult</Choice>
+<Choice>Semaphore</Choice>
+<Choice>FtpFiles</Choice>
+<Val>4</Val>
+</EW>
+<I32>
+<Name>Step ID</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Setting</Name>
+<Val>{"Cluster":{"TestVI Path":"D:\\TestBenchFramework\\Modbus鑼冧緥\\PPL\\Modbus.lvlibp\\Modbus.Connect.vi","Close Panel":false,"Show Panel":false,"ControlXML":[{"Tree Path":"\\Control","Node":{"Child Paths Set":["\\Control\\00-Config","\\Control\\01-errorxinxxnoxerrorx"],"Name":"Control","Data":"","Attributes":[]}},{"Tree Path":"\\Control\\00-Config","Node":{"Child Paths Set":["\\Control\\00-Config\\00-address","\\Control\\00-Config\\01-portxx502x","\\Control\\00-Config\\02-connectxtimeoutxms"],"Name":"00-Config","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"}]}},{"Tree Path":"\\Control\\00-Config\\00-address","Node":{"Child Paths Set":[],"Name":"00-address","Data":"String","Attributes":[{"Attribute":"Glyph Index","Value":"7"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Control\\00-Config\\01-portxx502x","Node":{"Child Paths Set":[],"Name":"01-port (502)","Data":"U16","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":"502"}]}},{"Tree Path":"\\Control\\00-Config\\02-connectxtimeoutxms","Node":{"Child Paths Set":[],"Name":"02-connect timeout ms","Data":"I32","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":"10000"}]}},{"Tree Path":"\\Control\\01-errorxinxxnoxerrorx","Node":{"Child Paths Set":["\\Control\\01-errorxinxxnoxerrorx\\00-status","\\Control\\01-errorxinxxnoxerrorx\\01-code","\\Control\\01-errorxinxxnoxerrorx\\02-source"],"Name":"01-error in (no error)","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"}]}},{"Tree Path":"\\Control\\01-errorxinxxnoxerrorx\\00-status","Node":{"Child Paths Set":[],"Name":"00-status","Data":"Boolean","Attributes":[{"Attribute":"Glyph Index","Value":"8"},{"Attribute":"Value","Value":"F"}]}},{"Tree Path":"\\Control\\01-errorxinxxnoxerrorx\\01-code","Node":{"Child Paths Set":[],"Name":"01-code","Data":"I32","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":"0"}]}},{"Tree Path":"\\Control\\01-errorxinxxnoxerrorx\\02-source","Node":{"Child Paths Set":[],"Name":"02-source","Data":"String","Attributes":[{"Attribute":"Glyph Index","Value":"7"},{"Attribute":"Value","Value":""}]}}],"IndicatorXML":[{"Tree Path":"\\Indicator","Node":{"Child Paths Set":["\\Indicator\\02-errorxout"],"Name":"Indicator","Data":"","Attributes":[]}},{"Tree Path":"\\Indicator\\02-errorxout","Node":{"Child Paths Set":["\\Indicator\\02-errorxout\\00-status","\\Indicator\\02-errorxout\\01-code","\\Indicator\\02-errorxout\\02-source"],"Name":"02-error out","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"},{"Attribute":"Value","Value":"Step_Result_Error"}]}},{"Tree Path":"\\Indicator\\02-errorxout\\00-status","Node":{"Child Paths Set":[],"Name":"00-status","Data":"Boolean","Attributes":[{"Attribute":"Glyph Index","Value":"8"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Indicator\\02-errorxout\\01-code","Node":{"Child Paths Set":[],"Name":"01-code","Data":"I32","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Indicator\\02-errorxout\\02-source","Node":{"Child Paths Set":[],"Name":"02-source","Data":"String","Attributes":[{"Attribute":"Glyph Index","Value":"7"},{"Attribute":"Value","Value":""}]}}]},"Limits":{"Numeric Limit":{"Comparison Type":"Low &lt;= x &lt;= High","Low":"0","High":"100","Unit":"","Numeric Format":"%f"},"Multiple Numeric Limits":[],"Expected String Value":""},"Data Source":"","Adatper":"LabVIEW"}</Val>
+</String>
+<String>
+<Name>Step Address</Name>
+<Val>B82CEB177660</Val>
+</String>
+<Map>
+<Name>Step Variable</Name>
+<NumElts>7</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>06_Step</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>14</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Result</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Error</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Boolean</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>8</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Code</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Integer</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>11</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>03_Source</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+</Cluster>
+<Array>
+<Name>Parent Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>Child Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>PropertiesSetting</Name>
+<NumElts>5</NumElts>
+<Cluster>
+<Name>Run Options</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Run Mode</Name>
+<Val>Normal</Val>
+</String>
+<Boolean>
+<Name>Ignore Step Failure </Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Error</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Breakpoint</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Looping</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Loop Type</Name>
+<Choice>None</Choice>
+<Choice>Pass/Fail count</Choice>
+<Choice>Fixed number of loops</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Record</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Fixed number of loops</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Fixed.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Fixed.Condition</Name>
+<Choice>&lt;</Choice>
+<Choice>&lt;=</Choice>
+<Choice>&gt;</Choice>
+<Choice>&gt;=</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Fixed.PercentOfResult</Name>
+<Val>100</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Pass/Fail count</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Count.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Count.Condition</Name>
+<Choice>pass</Choice>
+<Choice>fail</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Count.StateCount</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Post Action</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Post Actions_Pass</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Post Actions_Fail</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Pass Goto Step</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Fail Goto Step</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>General</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>StepName</Name>
+<Val>WriteCoils</Val>
+</String>
+<String>
+<Name>StepType</Name>
+<Val>Action</Val>
+</String>
+<String>
+<Name>StepDescripition</Name>
+<Val>写数据</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Synchronization</Name>
+<NumElts>1</NumElts>
+<EW>
+<Name>Synchronization</Name>
+<Choice>No synchronization</Choice>
+<Choice>Parallel</Choice>
+<Choice>Serial</Choice>
+<Choice>Use sequence file setting</Choice>
+<Choice>One thread only</Choice>
+<Choice>Use model setting</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Step Setting</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Step Type</Name>
+<Choice>Pass/Fail Test</Choice>
+<Choice>Numeric Limit Test</Choice>
+<Choice>String Value Test</Choice>
+<Choice>Multiple Numeric Limit Test</Choice>
+<Choice>Action</Choice>
+<Choice>Sequence Call</Choice>
+<Choice>Statement</Choice>
+<Choice>Time Delay</Choice>
+<Choice>Goto</Choice>
+<Choice>Message Popup</Choice>
+<Choice>Call Executable</Choice>
+<Choice>Label</Choice>
+<Choice>Queue</Choice>
+<Choice>Notification</Choice>
+<Choice>Flow_If</Choice>
+<Choice>Flow_For</Choice>
+<Choice>Flow_While</Choice>
+<Choice>Flow_Do While</Choice>
+<Choice>Mutex</Choice>
+<Choice>Batchsync</Choice>
+<Choice>Flow_Else</Choice>
+<Choice>Flow_ElseIf</Choice>
+<Choice>Flow_Break</Choice>
+<Choice>Flow_Continue</Choice>
+<Choice>Flow_Select</Choice>
+<Choice>Flow_Case</Choice>
+<Choice>Rendezvous</Choice>
+<Choice>AutoSchedule</Choice>
+<Choice>UseAutoSchedule</Choice>
+<Choice>AdditionalResult</Choice>
+<Choice>Semaphore</Choice>
+<Choice>FtpFiles</Choice>
+<Val>4</Val>
+</EW>
+<I32>
+<Name>Step ID</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Setting</Name>
+<Val>{"Cluster":{"TestVI Path":"D:\\TestBenchFramework\\Modbus鑼冧緥\\PPL\\Modbus.lvlibp\\Modbus.WriteMultipleCoils.vi","Close Panel":false,"Show Panel":false,"ControlXML":[{"Tree Path":"\\Control","Node":{"Child Paths Set":["\\Control\\00-errorxinxxnoxerrorx","\\Control\\02-address"],"Name":"Control","Data":"","Attributes":[]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx","Node":{"Child Paths Set":["\\Control\\00-errorxinxxnoxerrorx\\00-status","\\Control\\00-errorxinxxnoxerrorx\\01-code","\\Control\\00-errorxinxxnoxerrorx\\02-source"],"Name":"00-error in (no error)","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"}]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx\\00-status","Node":{"Child Paths Set":[],"Name":"00-status","Data":"Boolean","Attributes":[{"Attribute":"Glyph Index","Value":"8"},{"Attribute":"Value","Value":"F"}]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx\\01-code","Node":{"Child Paths Set":[],"Name":"01-code","Data":"I32","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":"0"}]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx\\02-source","Node":{"Child Paths Set":[],"Name":"02-source","Data":"String","Attributes":[{"Attribute":"Glyph Index","Value":"7"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Control\\02-address","Node":{"Child Paths Set":["\\Control\\02-address\\00-startingxaddress","\\Control\\02-address\\01-coilsxtoxwrite"],"Name":"02-address","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"}]}},{"Tree Path":"\\Control\\02-address\\00-startingxaddress","Node":{"Child Paths Set":[],"Name":"00-starting address","Data":"U16","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":"0"}]}},{"Tree Path":"\\Control\\02-address\\01-coilsxtoxwrite","Node":{"Child Paths Set":["\\Control\\02-address\\01-coilsxtoxwrite\\00-coilsxtoxwrite-0000"],"Name":"01-coils to write","Data":"Array","Attributes":[{"Attribute":"Glyph Index","Value":"9"}]}},{"Tree Path":"\\Control\\02-address\\01-coilsxtoxwrite\\00-coilsxtoxwrite-0000","Node":{"Child Paths Set":[],"Name":"00-coils to write-0000","Data":"Boolean","Attributes":[{"Attribute":"Glyph Index","Value":"8"},{"Attribute":"Value","Value":"F"}]}}],"IndicatorXML":[{"Tree Path":"\\Indicator","Node":{"Child Paths Set":["\\Indicator\\01-errorxout"],"Name":"Indicator","Data":"","Attributes":[]}},{"Tree Path":"\\Indicator\\01-errorxout","Node":{"Child Paths Set":["\\Indicator\\01-errorxout\\00-status","\\Indicator\\01-errorxout\\01-code","\\Indicator\\01-errorxout\\02-source"],"Name":"01-error out","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"},{"Attribute":"Value","Value":"Step_Result_Error"}]}},{"Tree Path":"\\Indicator\\01-errorxout\\00-status","Node":{"Child Paths Set":[],"Name":"00-status","Data":"Boolean","Attributes":[{"Attribute":"Glyph Index","Value":"8"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Indicator\\01-errorxout\\01-code","Node":{"Child Paths Set":[],"Name":"01-code","Data":"I32","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Indicator\\01-errorxout\\02-source","Node":{"Child Paths Set":[],"Name":"02-source","Data":"String","Attributes":[{"Attribute":"Glyph Index","Value":"7"},{"Attribute":"Value","Value":""}]}}]},"Limits":{"Numeric Limit":{"Comparison Type":"Low &lt;= x &lt;= High","Low":"0","High":"100","Unit":"","Numeric Format":"%f"},"Multiple Numeric Limits":[],"Expected String Value":""},"Data Source":"","Adatper":"LabVIEW"}</Val>
+</String>
+<String>
+<Name>Step Address</Name>
+<Val>B82CEB1779E4</Val>
+</String>
+<Map>
+<Name>Step Variable</Name>
+<NumElts>7</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>06_Step</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>14</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Result</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Error</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Boolean</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>8</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Code</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Integer</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>11</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>03_Source</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+</Cluster>
+<Array>
+<Name>Parent Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>Child Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>PropertiesSetting</Name>
+<NumElts>5</NumElts>
+<Cluster>
+<Name>Run Options</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Run Mode</Name>
+<Val>Normal</Val>
+</String>
+<Boolean>
+<Name>Ignore Step Failure </Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Error</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Breakpoint</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Looping</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Loop Type</Name>
+<Choice>None</Choice>
+<Choice>Pass/Fail count</Choice>
+<Choice>Fixed number of loops</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Record</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Fixed number of loops</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Fixed.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Fixed.Condition</Name>
+<Choice>&lt;</Choice>
+<Choice>&lt;=</Choice>
+<Choice>&gt;</Choice>
+<Choice>&gt;=</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Fixed.PercentOfResult</Name>
+<Val>100</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Pass/Fail count</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Count.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Count.Condition</Name>
+<Choice>pass</Choice>
+<Choice>fail</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Count.StateCount</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Post Action</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Post Actions_Pass</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Post Actions_Fail</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Pass Goto Step</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Fail Goto Step</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>General</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>StepName</Name>
+<Val>Disconnect</Val>
+</String>
+<String>
+<Name>StepType</Name>
+<Val>Action</Val>
+</String>
+<String>
+<Name>StepDescripition</Name>
+<Val>断开连接</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Synchronization</Name>
+<NumElts>1</NumElts>
+<EW>
+<Name>Synchronization</Name>
+<Choice>No synchronization</Choice>
+<Choice>Parallel</Choice>
+<Choice>Serial</Choice>
+<Choice>Use sequence file setting</Choice>
+<Choice>One thread only</Choice>
+<Choice>Use model setting</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Step Setting</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Step Type</Name>
+<Choice>Pass/Fail Test</Choice>
+<Choice>Numeric Limit Test</Choice>
+<Choice>String Value Test</Choice>
+<Choice>Multiple Numeric Limit Test</Choice>
+<Choice>Action</Choice>
+<Choice>Sequence Call</Choice>
+<Choice>Statement</Choice>
+<Choice>Time Delay</Choice>
+<Choice>Goto</Choice>
+<Choice>Message Popup</Choice>
+<Choice>Call Executable</Choice>
+<Choice>Label</Choice>
+<Choice>Queue</Choice>
+<Choice>Notification</Choice>
+<Choice>Flow_If</Choice>
+<Choice>Flow_For</Choice>
+<Choice>Flow_While</Choice>
+<Choice>Flow_Do While</Choice>
+<Choice>Mutex</Choice>
+<Choice>Batchsync</Choice>
+<Choice>Flow_Else</Choice>
+<Choice>Flow_ElseIf</Choice>
+<Choice>Flow_Break</Choice>
+<Choice>Flow_Continue</Choice>
+<Choice>Flow_Select</Choice>
+<Choice>Flow_Case</Choice>
+<Choice>Rendezvous</Choice>
+<Choice>AutoSchedule</Choice>
+<Choice>UseAutoSchedule</Choice>
+<Choice>AdditionalResult</Choice>
+<Choice>Semaphore</Choice>
+<Choice>FtpFiles</Choice>
+<Val>4</Val>
+</EW>
+<I32>
+<Name>Step ID</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Setting</Name>
+<Val>{"Cluster":{"TestVI Path":"D:\\TestBenchFramework\\Modbus鑼冧緥\\PPL\\Modbus.lvlibp\\Modbus.Disconnect.vi","Close Panel":false,"Show Panel":false,"ControlXML":[{"Tree Path":"\\Control","Node":{"Child Paths Set":["\\Control\\00-errorxinxxnoxerrorx"],"Name":"Control","Data":"","Attributes":[]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx","Node":{"Child Paths Set":["\\Control\\00-errorxinxxnoxerrorx\\00-status","\\Control\\00-errorxinxxnoxerrorx\\01-code","\\Control\\00-errorxinxxnoxerrorx\\02-source"],"Name":"00-error in (no error)","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"}]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx\\00-status","Node":{"Child Paths Set":[],"Name":"00-status","Data":"Boolean","Attributes":[{"Attribute":"Glyph Index","Value":"8"},{"Attribute":"Value","Value":"F"}]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx\\01-code","Node":{"Child Paths Set":[],"Name":"01-code","Data":"I32","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":"0"}]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx\\02-source","Node":{"Child Paths Set":[],"Name":"02-source","Data":"String","Attributes":[{"Attribute":"Glyph Index","Value":"7"},{"Attribute":"Value","Value":""}]}}],"IndicatorXML":[{"Tree Path":"\\Indicator","Node":{"Child Paths Set":["\\Indicator\\01-errorxout"],"Name":"Indicator","Data":"","Attributes":[]}},{"Tree Path":"\\Indicator\\01-errorxout","Node":{"Child Paths Set":["\\Indicator\\01-errorxout\\00-status","\\Indicator\\01-errorxout\\01-code","\\Indicator\\01-errorxout\\02-source"],"Name":"01-error out","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"},{"Attribute":"Value","Value":"Step_Result_Error"}]}},{"Tree Path":"\\Indicator\\01-errorxout\\00-status","Node":{"Child Paths Set":[],"Name":"00-status","Data":"Boolean","Attributes":[{"Attribute":"Glyph Index","Value":"8"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Indicator\\01-errorxout\\01-code","Node":{"Child Paths Set":[],"Name":"01-code","Data":"I32","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Indicator\\01-errorxout\\02-source","Node":{"Child Paths Set":[],"Name":"02-source","Data":"String","Attributes":[{"Attribute":"Glyph Index","Value":"7"},{"Attribute":"Value","Value":""}]}}]},"Limits":{"Numeric Limit":{"Comparison Type":"Low &lt;= x &lt;= High","Low":"0","High":"100","Unit":"","Numeric Format":"%f"},"Multiple Numeric Limits":[],"Expected String Value":""},"Data Source":"","Adatper":"LabVIEW"}</Val>
+</String>
+<String>
+<Name>Step Address</Name>
+<Val>B82CEB177D7C</Val>
+</String>
+<Map>
+<Name>Step Variable</Name>
+<NumElts>7</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>06_Step</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>14</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Result</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Error</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Boolean</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>8</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Code</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Integer</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>11</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>03_Source</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+</Cluster>
+<Array>
+<Name>Parent Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>Child Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>PropertiesSetting</Name>
+<NumElts>5</NumElts>
+<Cluster>
+<Name>Run Options</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Run Mode</Name>
+<Val>Normal</Val>
+</String>
+<Boolean>
+<Name>Ignore Step Failure </Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Error</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Breakpoint</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Looping</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Loop Type</Name>
+<Choice>None</Choice>
+<Choice>Pass/Fail count</Choice>
+<Choice>Fixed number of loops</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Record</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Fixed number of loops</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Fixed.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Fixed.Condition</Name>
+<Choice>&lt;</Choice>
+<Choice>&lt;=</Choice>
+<Choice>&gt;</Choice>
+<Choice>&gt;=</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Fixed.PercentOfResult</Name>
+<Val>100</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Pass/Fail count</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Count.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Count.Condition</Name>
+<Choice>pass</Choice>
+<Choice>fail</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Count.StateCount</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Post Action</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Post Actions_Pass</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Post Actions_Fail</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Pass Goto Step</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Fail Goto Step</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>General</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>StepName</Name>
+<Val>StopServers</Val>
+</String>
+<String>
+<Name>StepType</Name>
+<Val>Action</Val>
+</String>
+<String>
+<Name>StepDescripition</Name>
+<Val>关闭服务</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Synchronization</Name>
+<NumElts>1</NumElts>
+<EW>
+<Name>Synchronization</Name>
+<Choice>No synchronization</Choice>
+<Choice>Parallel</Choice>
+<Choice>Serial</Choice>
+<Choice>Use sequence file setting</Choice>
+<Choice>One thread only</Choice>
+<Choice>Use model setting</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Step Setting</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Step Type</Name>
+<Choice>Pass/Fail Test</Choice>
+<Choice>Numeric Limit Test</Choice>
+<Choice>String Value Test</Choice>
+<Choice>Multiple Numeric Limit Test</Choice>
+<Choice>Action</Choice>
+<Choice>Sequence Call</Choice>
+<Choice>Statement</Choice>
+<Choice>Time Delay</Choice>
+<Choice>Goto</Choice>
+<Choice>Message Popup</Choice>
+<Choice>Call Executable</Choice>
+<Choice>Label</Choice>
+<Choice>Queue</Choice>
+<Choice>Notification</Choice>
+<Choice>Flow_If</Choice>
+<Choice>Flow_For</Choice>
+<Choice>Flow_While</Choice>
+<Choice>Flow_Do While</Choice>
+<Choice>Mutex</Choice>
+<Choice>Batchsync</Choice>
+<Choice>Flow_Else</Choice>
+<Choice>Flow_ElseIf</Choice>
+<Choice>Flow_Break</Choice>
+<Choice>Flow_Continue</Choice>
+<Choice>Flow_Select</Choice>
+<Choice>Flow_Case</Choice>
+<Choice>Rendezvous</Choice>
+<Choice>AutoSchedule</Choice>
+<Choice>UseAutoSchedule</Choice>
+<Choice>AdditionalResult</Choice>
+<Choice>Semaphore</Choice>
+<Choice>FtpFiles</Choice>
+<Val>4</Val>
+</EW>
+<I32>
+<Name>Step ID</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Setting</Name>
+<Val>{"Cluster":{"TestVI Path":"D:\\TestBenchFramework\\Modbus鑼冧緥\\PPL\\Modbus.lvlibp\\Modbus.StopServers.vi","Close Panel":false,"Show Panel":false,"ControlXML":[{"Tree Path":"\\Control","Node":{"Child Paths Set":["\\Control\\00-errorxinxxnoxerrorx"],"Name":"Control","Data":"","Attributes":[]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx","Node":{"Child Paths Set":["\\Control\\00-errorxinxxnoxerrorx\\00-status","\\Control\\00-errorxinxxnoxerrorx\\01-code","\\Control\\00-errorxinxxnoxerrorx\\02-source"],"Name":"00-error in (no error)","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"}]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx\\00-status","Node":{"Child Paths Set":[],"Name":"00-status","Data":"Boolean","Attributes":[{"Attribute":"Glyph Index","Value":"8"},{"Attribute":"Value","Value":"F"}]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx\\01-code","Node":{"Child Paths Set":[],"Name":"01-code","Data":"I32","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":"0"}]}},{"Tree Path":"\\Control\\00-errorxinxxnoxerrorx\\02-source","Node":{"Child Paths Set":[],"Name":"02-source","Data":"String","Attributes":[{"Attribute":"Glyph Index","Value":"7"},{"Attribute":"Value","Value":""}]}}],"IndicatorXML":[{"Tree Path":"\\Indicator","Node":{"Child Paths Set":["\\Indicator\\01-errorxout"],"Name":"Indicator","Data":"","Attributes":[]}},{"Tree Path":"\\Indicator\\01-errorxout","Node":{"Child Paths Set":["\\Indicator\\01-errorxout\\00-status","\\Indicator\\01-errorxout\\01-code","\\Indicator\\01-errorxout\\02-source"],"Name":"01-error out","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"},{"Attribute":"Value","Value":"Step_Result_Error"}]}},{"Tree Path":"\\Indicator\\01-errorxout\\00-status","Node":{"Child Paths Set":[],"Name":"00-status","Data":"Boolean","Attributes":[{"Attribute":"Glyph Index","Value":"8"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Indicator\\01-errorxout\\01-code","Node":{"Child Paths Set":[],"Name":"01-code","Data":"I32","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Indicator\\01-errorxout\\02-source","Node":{"Child Paths Set":[],"Name":"02-source","Data":"String","Attributes":[{"Attribute":"Glyph Index","Value":"7"},{"Attribute":"Value","Value":""}]}}]},"Limits":{"Numeric Limit":{"Comparison Type":"Low &lt;= x &lt;= High","Low":"0","High":"100","Unit":"","Numeric Format":"%f"},"Multiple Numeric Limits":[],"Expected String Value":""},"Data Source":"","Adatper":"LabVIEW"}</Val>
+</String>
+<String>
+<Name>Step Address</Name>
+<Val>B82CEB177E44</Val>
+</String>
+<Map>
+<Name>Step Variable</Name>
+<NumElts>7</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>06_Step</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>14</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Result</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Error</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Boolean</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>8</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Code</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Integer</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>11</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>03_Source</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+</Cluster>
+<Array>
+<Name>Parent Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>Child Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+</Array>
+<Map>
+<Name>Locals</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\01_Locals</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Locals</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>1</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+<Map>
+<Name>Parameters</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\02_Parameters</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Parameters</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>2</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+<Timestamp>
+<Name>Create Date Time</Name>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>-1397237760</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>-470849672</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+</Timestamp>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Sequence Name</Name>
+<Val>Servers</Val>
+</String>
+<Cluster>
+<Name>Step</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>Steps</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>PropertiesSetting</Name>
+<NumElts>5</NumElts>
+<Cluster>
+<Name>Run Options</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Run Mode</Name>
+<Val>Normal</Val>
+</String>
+<Boolean>
+<Name>Ignore Step Failure </Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Ignore Error</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Breakpoint</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Looping</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Loop Type</Name>
+<Choice>None</Choice>
+<Choice>Pass/Fail count</Choice>
+<Choice>Fixed number of loops</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Record</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Fixed number of loops</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Fixed.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Fixed.Condition</Name>
+<Choice>&lt;</Choice>
+<Choice>&lt;=</Choice>
+<Choice>&gt;</Choice>
+<Choice>&gt;=</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Fixed.PercentOfResult</Name>
+<Val>100</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Pass/Fail count</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>Count.Max</Name>
+<Val>0</Val>
+</U8>
+<EW>
+<Name>Count.Condition</Name>
+<Choice>pass</Choice>
+<Choice>fail</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>Count.StateCount</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Post Action</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Post Actions_Pass</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Post Actions_Fail</Name>
+<Choice>Goto next step</Choice>
+<Choice>Goto step</Choice>
+<Choice>Terminate execution</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Pass Goto Step</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Fail Goto Step</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>General</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>StepName</Name>
+<Val>LaunchServers</Val>
+</String>
+<String>
+<Name>StepType</Name>
+<Val>Action</Val>
+</String>
+<String>
+<Name>StepDescripition</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Synchronization</Name>
+<NumElts>1</NumElts>
+<EW>
+<Name>Synchronization</Name>
+<Choice>No synchronization</Choice>
+<Choice>Parallel</Choice>
+<Choice>Serial</Choice>
+<Choice>Use sequence file setting</Choice>
+<Choice>One thread only</Choice>
+<Choice>Use model setting</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Step Setting</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Step Type</Name>
+<Choice>Pass/Fail Test</Choice>
+<Choice>Numeric Limit Test</Choice>
+<Choice>String Value Test</Choice>
+<Choice>Multiple Numeric Limit Test</Choice>
+<Choice>Action</Choice>
+<Choice>Sequence Call</Choice>
+<Choice>Statement</Choice>
+<Choice>Time Delay</Choice>
+<Choice>Goto</Choice>
+<Choice>Message Popup</Choice>
+<Choice>Call Executable</Choice>
+<Choice>Label</Choice>
+<Choice>Queue</Choice>
+<Choice>Notification</Choice>
+<Choice>Flow_If</Choice>
+<Choice>Flow_For</Choice>
+<Choice>Flow_While</Choice>
+<Choice>Flow_Do While</Choice>
+<Choice>Mutex</Choice>
+<Choice>Batchsync</Choice>
+<Choice>Flow_Else</Choice>
+<Choice>Flow_ElseIf</Choice>
+<Choice>Flow_Break</Choice>
+<Choice>Flow_Continue</Choice>
+<Choice>Flow_Select</Choice>
+<Choice>Flow_Case</Choice>
+<Choice>Rendezvous</Choice>
+<Choice>AutoSchedule</Choice>
+<Choice>UseAutoSchedule</Choice>
+<Choice>AdditionalResult</Choice>
+<Choice>Semaphore</Choice>
+<Choice>FtpFiles</Choice>
+<Val>4</Val>
+</EW>
+<I32>
+<Name>Step ID</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Setting</Name>
+<Val>{"Cluster":{"TestVI Path":"D:\\TestBenchFramework\\Modbus鑼冧緥\\PPL\\Modbus.lvlibp\\Modbus.LaunchServers.vi","Close Panel":false,"Show Panel":false,"ControlXML":[{"Tree Path":"\\Control","Node":{"Child Paths Set":["\\Control\\01-errorxinxxnoxerrorx"],"Name":"Control","Data":"","Attributes":[]}},{"Tree Path":"\\Control\\01-errorxinxxnoxerrorx","Node":{"Child Paths Set":["\\Control\\01-errorxinxxnoxerrorx\\00-status","\\Control\\01-errorxinxxnoxerrorx\\01-code","\\Control\\01-errorxinxxnoxerrorx\\02-source"],"Name":"01-error in (no error)","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"}]}},{"Tree Path":"\\Control\\01-errorxinxxnoxerrorx\\00-status","Node":{"Child Paths Set":[],"Name":"00-status","Data":"Boolean","Attributes":[{"Attribute":"Glyph Index","Value":"8"},{"Attribute":"Value","Value":"F"}]}},{"Tree Path":"\\Control\\01-errorxinxxnoxerrorx\\01-code","Node":{"Child Paths Set":[],"Name":"01-code","Data":"I32","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":"0"}]}},{"Tree Path":"\\Control\\01-errorxinxxnoxerrorx\\02-source","Node":{"Child Paths Set":[],"Name":"02-source","Data":"String","Attributes":[{"Attribute":"Glyph Index","Value":"7"},{"Attribute":"Value","Value":""}]}}],"IndicatorXML":[{"Tree Path":"\\Indicator","Node":{"Child Paths Set":["\\Indicator\\00-errorxout"],"Name":"Indicator","Data":"","Attributes":[]}},{"Tree Path":"\\Indicator\\00-errorxout","Node":{"Child Paths Set":["\\Indicator\\00-errorxout\\00-status","\\Indicator\\00-errorxout\\01-code","\\Indicator\\00-errorxout\\02-source"],"Name":"00-error out","Data":"Cluster","Attributes":[{"Attribute":"Glyph Index","Value":"13"},{"Attribute":"Value","Value":"Step_Result_Error"}]}},{"Tree Path":"\\Indicator\\00-errorxout\\00-status","Node":{"Child Paths Set":[],"Name":"00-status","Data":"Boolean","Attributes":[{"Attribute":"Glyph Index","Value":"8"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Indicator\\00-errorxout\\01-code","Node":{"Child Paths Set":[],"Name":"01-code","Data":"I32","Attributes":[{"Attribute":"Glyph Index","Value":"11"},{"Attribute":"Value","Value":""}]}},{"Tree Path":"\\Indicator\\00-errorxout\\02-source","Node":{"Child Paths Set":[],"Name":"02-source","Data":"String","Attributes":[{"Attribute":"Glyph Index","Value":"7"},{"Attribute":"Value","Value":""}]}}]},"Limits":{"Numeric Limit":{"Comparison Type":"Low &lt;= x &lt;= High","Low":"0","High":"100","Unit":"","Numeric Format":"%f"},"Multiple Numeric Limits":[],"Expected String Value":""},"Data Source":"","Adatper":"LabVIEW"}</Val>
+</String>
+<String>
+<Name>Step Address</Name>
+<Val>B82CEB177354</Val>
+</String>
+<Map>
+<Name>Step Variable</Name>
+<NumElts>7</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>06_Step</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>14</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Result</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Error</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\01_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Boolean</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>8</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\02_Code</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Code</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Integer</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>11</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\01_Error\03_Source</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>03_Source</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\06_Step\01_Result\02_Status</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Status</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+</Cluster>
+<Array>
+<Name>Parent Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>Child Address</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+</Array>
+<Map>
+<Name>Locals</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\01_Locals</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_Locals</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>1</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+<Map>
+<Name>Parameters</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\02_Parameters</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Parameters</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>2</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+<Timestamp>
+<Name>Create Date Time</Name>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>591974400</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>-470849635</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+</Timestamp>
+</Cluster>
+</KeyValPair>
+</Map>
+<String>
+<Name>File Name</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>StationGlobals</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\03_StationGlobals</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>03_StationGlobals</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>3</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+<Map>
+<Name>FileGlobals</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\04_FileGlobals</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>04_FileGlobals</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>4</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+<Map>
+<Name>RunState</Name>
+<NumElts>13</NumElts>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\01_SequencePath</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\02_UUTSerialNumber</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\03_TestSockets</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\04_ExecutionID</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\05_ThreadID</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\06_CurrentStep</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\07_Process</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\08_ResultContainer</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>05_RunState</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val></Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>5</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\01_SequencePath</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_SequencePath</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\02_UUTSerialNumber</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_UUTSerialNumber</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\03_TestSockets</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\03_TestSockets\01_NumberOfSockets</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\03_TestSockets\02_SocketCount</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>03_TestSockets</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\03_TestSockets\01_NumberOfSockets</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_NumberOfSockets</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Integer</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>11</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\03_TestSockets\02_SocketCount</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_SocketCount</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Integer</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>11</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\04_ExecutionID</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>04_ExecutionID</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\05_ThreadID</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>05_ThreadID</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\06_CurrentStep</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\06_CurrentStep\01_StepName</Val>
+</String>
+<String>
+<Name>Child Path</Name>
+<Val>\05_RunState\06_CurrentStep\02_Address</Val>
+</String>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>06_CurrentStep</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Cluster</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>13</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\06_CurrentStep\01_StepName</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>01_StepName</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\06_CurrentStep\02_Address</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>02_Address</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\07_Process</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>07_Process</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>7</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+<KeyValPair>
+<String>
+<Name>Tree Path</Name>
+<Val>\05_RunState\08_ResultContainer</Val>
+</String>
+<Cluster>
+<Name>Node</Name>
+<NumElts>4</NumElts>
+<Set>
+<Name>Child Paths Set</Name>
+<NumElts>0</NumElts>
+</Set>
+<String>
+<Name>Name</Name>
+<Val>08_ResultContainer</Val>
+</String>
+<String>
+<Name>Data</Name>
+<Val>Array_String</Val>
+</String>
+<Map>
+<Name>Attributes</Name>
+<NumElts>1</NumElts>
+<KeyValPair>
+<String>
+<Name>Attribute</Name>
+<Val>Glyph Index</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>9</Val>
+</String>
+</KeyValPair>
+</Map>
+</Cluster>
+</KeyValPair>
+</Map>
+<Cluster>
+<Name>Properties</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>Synchronization</Name>
+<Choice>No synchronization</Choice>
+<Choice>Serial</Choice>
+<Choice>Parallel</Choice>
+<Choice>One thread only</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Comment</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Protection State</Name>
+<Choice>Unlock</Choice>
+<Choice>Lock</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>PassWord</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Cluster>
