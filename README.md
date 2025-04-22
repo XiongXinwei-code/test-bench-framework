@@ -1,6 +1,6 @@
 # TestBenchFramework
 
-![Gitea Forks](https://img.shields.io/gitee/forks/xiongxinwei/test-bench-framework)
+![Gitea Forks](https://img.shields.io/gitea/forks/XiongXinwei-code/test-bench-framework)
 
 #### 简介
 
