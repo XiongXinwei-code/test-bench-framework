@@ -7,7 +7,7 @@ Test Bench Framework是用LabVIEW2019开发的测试序列管理框架，
 
 #### 下载链接
 
-[v2.1.4.13](http://https://gitee.com/xiongxinwei/test-bench-framework/releases/download/v2.4.1.13/boring_lab_lib_test_bench_framework-2.4.1.13.vip)
+[v2.1.4.13](https://foruda.gitee.com/attach_file/1745308803657354498/boring_lab_lib_test_bench_framework-2.4.1.13.vip?token=43b54df45181ff0bbc63eb4f62f1e76c&ts=1745311134&attname=boring_lab_lib_test_bench_framework-2.4.1.13.vip)
 
 #### 说明文档
 
