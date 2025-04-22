@@ -5,6 +5,10 @@
 Test Bench Framework是用LabVIEW2019开发的测试序列管理框架，
 使用框架可以快速开发和调试FCT&EOL的上位机软件和测试序列。
 
+#### 下载链接
+
+[v2.1.4.13](http://https://gitee.com/xiongxinwei/test-bench-framework/releases/download/v2.4.1.13/boring_lab_lib_test_bench_framework-2.4.1.13.vip)
+
 #### 说明文档
 
 [Test Bench Framework - Wiki - Gitee.com](https://gitee.com/xiongxinwei/test-bench-framework/wikis/Test%20Bench%20Framework)
