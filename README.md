@@ -1,5 +1,7 @@
 # TestBenchFramework
 
+![Gitea Forks](https://img.shields.io/gitee/forks/xiongxinwei/test-bench-framework)
+
 #### 简介
 
 Test Bench Framework是用LabVIEW2019开发的测试序列管理框架，
