@@ -1,6 +1,6 @@
 # TestBenchFramework
 
-![GitHub Repo stars](https://img.shields.io/github/stars/XiongXinwei-code/test-bench-framework)
+![GitHub Repo stars](https://img.shields.io/gitee/stars/XiongXinwei/test-bench-framework)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/xinwei_xiong)
 #### 简介
 
