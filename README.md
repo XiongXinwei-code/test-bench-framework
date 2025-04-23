@@ -2,6 +2,9 @@
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/XiongXinwei-code/test-bench-framework)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/xinwei_xiong)
+![GitHub followers](https://img.shields.io/github/followers/XiongXinwei-code)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/XiongXinwei-code/test-bench-framework/total)
+
 #### 简介
 
 Test Bench Framework是用LabVIEW2019开发的测试序列管理框架，
