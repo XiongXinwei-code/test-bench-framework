@@ -1,6 +1,6 @@
 # TestBenchFramework
 
-![Gitea Forks](https://img.shields.io/gitea/forks/XiongXinwei/test-bench-framework)
+![GitHub Repo stars](https://img.shields.io/github/stars/XiongXinwei-code/test-bench-framework)
 
 #### 简介
 
