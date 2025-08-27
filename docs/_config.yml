@@ -89,6 +89,10 @@ collections:
     output: true
     permalink: /:collection/:path
 
+params:
+  ui:
+    navbar_logo: true
+
 # Defaults
 defaults:
   - scope:
