@@ -43,7 +43,7 @@ version_params:
   versioning: true
 
   # Disable so older versions cannot be searched
-  #allow_search: true
+  allow_search: true
 
   # Allow these versions to be searched
   search_versions:
@@ -54,7 +54,7 @@ version_params:
     - Previous
 
 # Should there be feedback buttons at the bottom of pages?
- #feedback: true
+feedback: true
 
 # Link to a privacy policy in footer, uncomment and define if wanted
 # privacy: https://domain.com/privacy
@@ -108,3 +108,5 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+mermaid: true
