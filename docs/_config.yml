@@ -109,5 +109,7 @@ defaults:
     values:
       layout: "post"
 
+mermaid: true
+
 mermaid:
   src: 'path/to/mermaid.js'
