@@ -93,6 +93,14 @@ params:
   ui:
     navbar_logo: true
 
+params:
+  ui:
+    sidebar_search_disable: true
+
+params:
+  mermaid:
+    version: 10.9.0
+
 # Defaults
 defaults:
   - scope:
