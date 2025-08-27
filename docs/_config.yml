@@ -81,6 +81,7 @@ fixedNav: 'true' # true or false
 
 permalink: /:year/:title/
 markdown: kramdown
+mermaid: true
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 # Collections
@@ -108,5 +109,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-mermaid:
-  src: 'path/to/mermaid.js'
