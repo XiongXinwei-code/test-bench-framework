@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 文档
+mermaid: true
 permalink: /docs/
 ---
 
