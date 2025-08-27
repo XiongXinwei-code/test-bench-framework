@@ -29,15 +29,11 @@ baseurl: "/test-bench-framework" # the subpath of your site, e.g. /blog
 url: "https://xiongxinwei-code.github.io/test-bench-framework/" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/vsoch/docsy-jekyll"
-github_user: "vsoch"
-github_repo: "docsy-jekyll"
+repo: "https://gitee.com/xiongxinwei/test-bench-framework"
+github_user: "xiongxinwei"
+github_repo: "test-bench-framework"
 github_branch: "master"
 
-# Optional
-twitter: vsoch
-linkedin: vsochat
-dockerhub: vanessa
 
 # These options are used to configure the locations of your version history when you want to serve versioned documents
 version_params:
@@ -47,7 +43,7 @@ version_params:
   versioning: true
 
   # Disable so older versions cannot be searched
-  allow_search: false
+  allow_search: true
 
   # Allow these versions to be searched
   search_versions:
@@ -58,7 +54,7 @@ version_params:
     - Previous
 
 # Should there be feedback buttons at the bottom of pages?
-feedback: false
+#feedback: true
 
 # Link to a privacy policy in footer, uncomment and define if wanted
 # privacy: https://domain.com/privacy
