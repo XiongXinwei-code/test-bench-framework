@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Documentation
+title: 文档
 permalink: /docs/
 ---
 
-# Documentation
+# 文档导航
 
-Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a 
-particular page.
+欢迎来到 {{ site.title }} 文档导航！这里可以快速跳转到详细文档。
 
 <div class="section-index">
     <hr class="panel-line">

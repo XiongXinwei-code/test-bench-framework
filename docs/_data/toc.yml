@@ -1,15 +1,13 @@
-- title: Documentation
+- title: 文档
   url: docs
   links:
-    - title: "Getting Started"
-      url: "docs/getting-started"
+    - title: "快速入门"
+      url: "docs/快速入门"
       children:
-        - title: Features
-          url: "docs/getting-started#getting-started"
-        - title: Development
-          url: "docs/getting-started#development"
-        - title: Customization
-          url: "docs/getting-started#customization"
+        - title: 编辑测试序列
+          url: "docs/快速入门#如何编辑测试序列"
+        - title: 上位机软件调试
+          url: "docs/快速入门#使用上位机软件调用测试序列"
     - title: Versioning
       url: "docs/versioning"
     - title: "About"
