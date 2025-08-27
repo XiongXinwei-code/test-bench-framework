@@ -1,6 +1,10 @@
 - title: 文档
   url: docs
   links:
+    - title: 框架概览
+      url: "docs/框架概览"
+    - title: 安装环境
+      url: "docs/安装方式"
     - title: "快速入门"
       url: "docs/快速入门"
       children:
@@ -8,16 +12,5 @@
           url: "docs/快速入门#如何编辑测试序列"
         - title: 上位机软件调试
           url: "docs/快速入门#使用上位机软件调用测试序列"
-    - title: Versioning
-      url: "docs/versioning"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
-- title: "Extras"
-  url: "docs/extras"
-  links:
-    - title: Quizzes
-      url: "docs/extras/example-quiz"
-    - title: Tags Page
-      url: "tags"
+    - title: "测试引擎"
+      url: "docs/测试引擎"
