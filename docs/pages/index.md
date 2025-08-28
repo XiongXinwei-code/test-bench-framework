@@ -4,7 +4,7 @@ title: Test Bench Framework
 permalink: /
 ---
 
-# 欢迎来到Test Bench Framework
+# 欢迎来到Test Bench Framework文档中心
 
 在这里您将学习到关于如何使用“Test Bench Framework”开发测试序列。
 
