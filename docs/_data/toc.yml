@@ -14,3 +14,5 @@
           url: "docs/快速入门#使用上位机软件调用测试序列"
     - title: "测试引擎"
       url: "docs/测试引擎"
+    - title: "应用接口"
+      url: "docs/应用接口"
