@@ -6,7 +6,7 @@ permalink: /docs/
 
 # 文档导航
 
-欢迎来到 {{ site.title }} 文档导航！这里可以快速跳转到详细文档。
+欢迎来到 {{ site.title }} 文档导航页面！
 
 <div class="section-index">
     <hr class="panel-line">
