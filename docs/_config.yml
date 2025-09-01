@@ -47,7 +47,7 @@ version_params:
 
   # Allow these versions to be searched
   search_versions:
-    - Previous
+    - Current
   latest: Current
   versions:
     - Current
